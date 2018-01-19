@@ -1,0 +1,41 @@
+.error-404{
+  .wrapper-error-info{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+.text-error{
+}
+.error{
+  font-size: $size-error;
+  color: $color-blue;
+  font-weight: 700;
+  padding: 65px 110px 65px 0;
+  border-right: 2px solid $color-light-blue;
+}
+.content-error{
+  padding-left: 110px;
+  span{
+    color: $color-black;
+    font-size: $size-h2;
+    font-weight: 900;
+    position: relative;
+    padding-top: 100px;
+    &:before{
+      content: '';
+      top: 0;
+      left: 10px;
+      right: 0;
+      bottom: 31px;
+      position: absolute;
+      background-image: url("../../images/icon-sad.png");
+      background-repeat: no-repeat;
+    }
+  }
+  p{
+    color: $color-dark-grey;
+    font-size: $size-p;
+  }
+}

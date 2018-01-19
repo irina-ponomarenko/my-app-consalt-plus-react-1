@@ -1,0 +1,32 @@
+.nav-blog-page{
+  display: flex;
+  justify-content: center;
+  ul{
+    display: flex;
+    li.active_border{
+      border: 2px solid $color-orange;
+    }
+    li{
+      border: 2px solid $color-circle;
+      width: 55px;
+      height: 55px;
+      border-radius: 55px;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        margin: 0 auto;
+        color: $color-grey-card;
+      }
+    }
+  }
+}
+.margin-blog-nav{
+  margin-top: 70px;
+}
+.active_border{
+  border: 2px solid $color-orange;
+}

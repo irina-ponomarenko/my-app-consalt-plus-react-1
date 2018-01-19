@@ -1,0 +1,20 @@
+.left-content{
+  h2{
+    font-size: $size-h2;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+  }
+  p{
+    font-size: $size-p-content;
+    line-height: 28px;
+    font-family: $family-domine;
+  }
+  div{
+    max-width: 682px;
+    width: 100%;
+    margin-top: 85px;
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+}

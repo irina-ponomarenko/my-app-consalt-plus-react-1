@@ -1,0 +1,47 @@
+.wrapper-list-quote{
+  margin-top: 52px;
+}
+.quote{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  li{
+    display: flex;
+    max-width: 537px;
+    justify-content: space-between;
+  }
+}
+.text-qute{
+  p{
+    color: $color-grey-blue;
+    font-size: $size-p-content;
+    font-family: $family-domine;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .qute-icon{
+    color: $color-orange;
+    font-size: $size-lg;
+    font-family: $family-monserat;
+    position: absolute;
+    right: -20px;
+    bottom: -50px;
+  }
+  h5{
+    color: $color-grey-card;
+    font-size: $size-normal;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  span{
+    font-size: $size-small;
+    color: $color-grey-blue;
+    font-family: $family-domine;
+  }
+}
+.img-quote{
+  margin-right: 35px;
+  img{
+    border-radius: 100%;
+  }
+}

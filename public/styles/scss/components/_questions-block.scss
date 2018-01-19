@@ -1,0 +1,37 @@
+.question-form{
+  margin-top: 30px;
+  .wrapper-question{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid $color-grey-radius;
+    p{
+      text-transform: uppercase;
+      font-size: $size-normal;
+      color: $color-grey-card;
+      margin-bottom: 30px;
+    }
+    p.qustion-1{
+      font-size: $size-h3;
+    }
+  }
+}
+.wrapper-answer-1{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.answer{
+  flex-wrap: wrap;
+  .negative{
+    max-width: 772px;
+    p{
+      font-family: $family-domine;
+      font-size: $size-p-content;
+      text-transform: none;
+      color: $color-grey-blue;
+    }
+  }
+}
+.answer-all{
+  margin-top: 60px;
+}

@@ -1,0 +1,79 @@
+.indastry{
+  display: flex;
+}
+.card-header-baner{
+  background: $color-blue;
+  width: 262px;
+  opacity: 1;
+  padding: 80px 0 100px 0;
+  margin-right: 30px;
+  &:last-child{
+    margin-right: 0;
+  }
+  a{
+    color: $color-white;
+  }
+  &:hover{
+    background: $color-dark-orange;
+  }
+}
+.education{
+  padding-top: 86px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/education.png");
+    background-repeat: no-repeat;
+  }
+}
+.business{
+  padding-top: 86px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/busines.png");
+    background-repeat: no-repeat;
+  }
+}
+.technology{
+  padding-top: 86px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 68px;
+    height: 60px;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/technology.png");
+    background-repeat: no-repeat;
+  }
+}
+.banking{
+  padding-top: 86px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+    background-image: url("../../images/banking.png");
+    background-repeat: no-repeat;
+  }
+}

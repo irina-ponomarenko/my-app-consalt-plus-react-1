@@ -1,0 +1,14 @@
+.boost{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 35px;
+  background: $color-block;
+  margin-top: 93px;
+  p{
+    font-size: $size-p;
+    color: $color-white;
+    font-family: $family-domine;
+    margin: 0;
+  }
+}

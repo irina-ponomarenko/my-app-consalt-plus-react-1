@@ -1,0 +1,64 @@
+.nav-header{
+  width: 100%;
+  z-index: 1000;
+}
+.fixed{
+  position: fixed;
+  background: $color-light-black;
+}
+.navigation{
+  width: 100%;
+  display: flex;
+  margin-bottom: 0;
+}
+.nav-li{
+  margin-right: 36px;
+  &:last-child{
+    margin-right: 0;
+  }
+  a{
+    color: $color-light-grey;
+    text-transform: uppercase;
+    &:hover{
+      text-decoration: none;
+      color: $color-orange;
+    }
+  }
+}
+.active{
+  color: $color-orange;
+}
+.contact-nav{
+  display: flex;
+}
+.phone{
+  a{
+    color: $color-white;
+    margin-right: 23px;
+    &:hover{
+      text-decoration: none;
+      color: $color-light-grey;
+    }
+  }
+  .icon-call-out{
+    color: $color-blue;
+    font-size: $size-simple;
+    margin-right: 16px;
+  }
+}
+.mail{
+  width: 31px;
+  height: 31px;
+  border-radius: 100%;
+  background-color: $color-blue;
+  text-align: center;
+  span{
+    color: $color-white;
+    font-size: $size-simple;
+  }
+}
+.navigation{
+  li.active a{
+    color: $color-orange !important;
+  }
+}

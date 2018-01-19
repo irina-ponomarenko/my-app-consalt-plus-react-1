@@ -1,0 +1,254 @@
+@media screen and (min-width:300px) and (max-width:1109px) {
+.indastry-wrapper{
+  flex-wrap: wrap;
+  margin: 0;
+}
+  .card-industry{
+    margin-right: 0;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+}
+@media screen and (min-width:300px) and (max-width:1024px) {
+  .wrapper-list-features{
+    justify-content: center;
+    flex-wrap: wrap;
+    .before-left{
+      margin-right: 30px;
+    }
+  }
+  .logo-icon{
+    display: none;
+  }
+  .contact-card{
+    flex-wrap: wrap;
+    li{
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:1000px) {
+  .navigation {
+    display: none;
+  }
+  .nav-li {
+    margin-right: 0;
+  }
+  #btn-click-menu {
+    display: block;
+  }
+  .content-error {
+    text-align: center;
+    margin-top: 165px;
+    padding: 0;
+  }
+  .error-404 .wrapper-error-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .error {
+    border-right: none;
+    padding: 0;
+    margin-bottom: 65px;
+    border-bottom: 2px solid #00b5da;
+  }
+  .top-footer {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .top-footer-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .top-footer {
+    .logo {
+      margin-top: 30px;
+    }
+  }
+  .bottom-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    p {
+      margin-right: 45px;
+    }
+  }
+  .nav-social-footer {
+    flex-wrap: wrap;
+  }
+  .quote{
+    flex-wrap: wrap;
+    li{
+      margin: 0 auto;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:935px) {
+  .about-us .container {
+    flex-wrap: wrap;
+  }
+  .right-column {
+    margin: 0 auto;
+  }
+  .left-content{
+    margin: 0 auto;
+  }
+  .card-img-top{
+      width: 100%;
+  }
+  .before-left{
+    margin-right: 0;
+  }
+}
+@media screen and (min-width:300px) and (max-width:900px) {
+  .quote-carosel{
+    width: 100%;
+    margin-right: auto;
+  }
+  .pagination-list{
+    flex-wrap: wrap;
+    li{
+      margin: 15px;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:768px) {
+  .boost{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper-card{
+    flex-wrap: wrap;
+    .card-project{
+      max-width: 100%;
+      margin-right: 0;
+    }
+  }
+  .carosel-quote-indicators{
+    li{
+      max-width: 64px;
+      height: 64px;
+      margin-right: 20px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    li.active{
+      max-width: 70px;
+      height: 70px;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:735px) {
+  .comunication{
+    flex-direction: column;
+  }
+  .comments, .message{
+    width: 100%;
+    align-items: center;
+  }
+  .comments{
+    .container{
+      margin: 0 auto;
+    }
+  }
+  .wrapper-new{
+    flex-wrap: wrap;
+  }
+  .connect{
+    .container{
+      flex-wrap: wrap;
+    }
+  }
+  .connect-info{
+    display: flex;
+  }
+  .wrapper-input{
+    flex-wrap: wrap;
+  }
+  .wrapper-blog-info{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width:300px) and (max-width:635px) {
+  .service-list{
+    flex-direction: column;
+    align-items: center;
+    .before-top{
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:579px) {
+  .card-industry{
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+  .quote-carosel{
+    p{
+      font-size: $size-normal;
+    }
+    h5{
+      font-size: 12px;
+    }
+    span{
+      font-size: 10px;
+    }
+  }
+  .carosel-quote-indicators{
+    li{
+      max-width: 54px;
+      height: 54px;
+      margin-right: 15px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    li.active{
+      max-width: 60px;
+      height: 60px;
+    }
+  }
+  .quote-carosel{
+    &:after{
+      background-size: contain;
+      max-width: 38px;
+      height: 38px;
+    }
+    &:before{
+      background-size: contain;
+      max-width: 38px;
+      height: 38px;
+    }
+  }
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+  .quote-section{
+    background-position: 27%;
+  }
+  .carosel-quote-indicators{
+    bottom: -140px;
+    li{
+      max-width: 44px;
+      height: 44px;
+      margin-right: 15px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    li.active{
+      max-width: 50px;
+      height: 50px;
+    }
+  }
+
+}
+@media screen and (min-width:300px) and (max-width:430px) {
+  .indicators-cards{
+    left: 0;
+  }
+  .blog-card-our{
+    flex-direction: column;
+  }
+}

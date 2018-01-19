@@ -1,0 +1,70 @@
+button{
+  outline: none;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+}
+#btn-click-menu{
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: $color-black-grey;
+  color: $color-dark-grey;
+  display: none;
+  &:hover{
+    background-color: $color-orange;
+    color: $color-black;
+  }
+}
+.btn-back{
+  background-color: $color-lettuce;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  font-size: $size-small;
+  color: $color-white;
+  border-radius: 50px;
+  border: none;
+}
+.margin-back{
+  margin-top: 50px;
+}
+.subscribe{
+  line-height: 55px;
+  font-size: 15px;
+  padding:0 25px;
+}
+.submit{
+  line-height: 0;
+  padding: 20px 27px;
+}
+.btn-card{
+  line-height: 0;
+  max-width: 143px;
+  width: 100%;
+  padding: 19px 0 19px 0;
+}
+.reply{
+  padding: 0 20px;
+}
+.comment-btn{
+  padding: 6px 32px;
+}
+.apply{
+  border: 2px solid $color-lettuce;
+  padding: 8px 28px;
+  &:hover{
+    background: transparent;
+    border: 2px solid $color-lettuce;
+    color: $color-black;
+  }
+}
+.img-project{
+  border-radius: 25px;
+  border: 2px solid $color-dark-orange;
+  background: transparent;
+  padding: 0 25px;
+  color: $color-white;
+  text-transform: uppercase;
+}

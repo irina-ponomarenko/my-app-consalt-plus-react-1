@@ -1,0 +1,67 @@
+.right-column{
+  margin-left: 60px;
+}
+.video{
+  max-width: 457px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 33px;
+  img{
+    width: 100%;
+  }
+}
+.play{
+  width: 63px;
+  height: 63px;
+  background-color: $color-red;
+  border-radius: 100%;
+  position: absolute;
+  color: $color-white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: 6px solid $color-white;
+  i{
+    margin: 0 auto;
+  }
+}
+.consultations{
+  padding: 34px 43px 34px 35px;
+  max-width: 457px;
+  background: $color-blue;
+  h3{
+    font-size: $size-h3;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+}
+.input-consultation{
+  margin-top: 30px;
+  input{
+    background: transparent;
+    text-transform: uppercase;
+    border: none;
+    color: $color-white;
+    outline: none;
+    border-bottom: 1px solid $color-dark-biruza;
+    &::-webkit-input-placeholder {
+      color: $color-biruza !important;
+    }
+  }
+  textarea{
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: transparent;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid $color-dark-biruza;
+    &::-webkit-input-placeholder {
+      color: $color-biruza !important;
+    }
+  }
+}

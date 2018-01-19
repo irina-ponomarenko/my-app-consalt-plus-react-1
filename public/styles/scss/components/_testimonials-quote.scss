@@ -1,0 +1,87 @@
+.quote-carosel{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 630px;
+  margin: 0 auto;
+  margin-right: 0;
+  position: relative;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 35px;
+  &:before{
+    content: '';
+    background: url("../../images/open-quote.png") no-repeat;
+    position: absolute;
+    color: $color-white;
+    top:-35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 43px;
+  }
+  &:after{
+    content: '';
+    background: url("../../images/close-quote.png") no-repeat;
+    position: absolute;
+    color: $color-white;
+    top: 160px;
+    right: 0;
+    bottom: 0;
+    width: 45px;
+  }
+  p{
+    font-size: $size-h5;
+    font-family: $family-domine;
+    margin-bottom: 30px;
+    text-align: left;
+    color: $color-white;
+  }
+  h5{
+    font-size: $size-p;
+    font-weight: 300;
+    color: $color-white;
+  }
+  span{
+    color: $color-grey-white;
+    font-size: $size-small;
+    font-weight: 300;
+  }
+}
+.carosel-quote-indicators{
+  height: unset;
+  bottom: -150px;
+  top: unset;
+  li.active{
+    max-width: 100px;
+    height: 100px;
+    border: 5px solid $color-orange;
+    -webkit-box-shadow: 0px 0px 0px 10px rgba(255,172,85,0.3);
+    -moz-box-shadow: 0px 0px 0px 10px rgba(255,172,85,0.3);
+    box-shadow: 0px 0px 0px 10px rgba(255,172,85,0.3);
+  }
+  li{
+    margin-right: 30px;
+    background-size: cover;
+    background-position: center;
+    max-width:94px;
+    height: 94px;
+    border: 5px solid $color-white;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.li-1{
+  background-image: url("../../images/qute-indicators-1.png")!important;
+}
+.li-2{
+  background-image: url("../../images/qute-indicators-2.png")!important;
+}
+.li-3{
+  background-image: url("../../images/qute-indicators-3.png")!important;
+}
+.li-4{
+  background-image: url("../../images/qute-indicators-4.png")!important;
+}

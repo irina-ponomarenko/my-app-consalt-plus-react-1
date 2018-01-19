@@ -1,0 +1,21 @@
+.news-letter-form{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  text-transform: uppercase;
+  max-width: 360px;
+  width: 100%;
+  background: $color-black-grey;
+  padding-left: 34px;
+  margin-top: 40px;
+  input{
+    outline: none;
+    background: transparent;
+    border-radius: 50px;
+    border: none;
+    line-height: 55px;
+    font-size: $size-small;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+}

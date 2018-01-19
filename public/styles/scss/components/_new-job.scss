@@ -1,0 +1,88 @@
+.job-form-wrapper{
+  margin-top: 46px;
+}
+.apply-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid $color-border-message;
+  margin-top: 35px;
+  &:first-child{
+    margin-top: 0;
+  }
+  label {
+    font-size: $size-normal;
+    margin: 0;
+  }
+  input {
+    font-size: $size-p-content;
+    line-height: 28px;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .account-manager {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.location{
+  flex-direction: row;
+  span{
+    margin-right: 10px;
+    color: $color-lettuce;
+  }
+  input{
+    border: none;
+  }
+}
+.wrapper-account{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 975px;
+  width: 100%;
+}
+.ident{
+  width: 100%;
+  margin-right: 30px;
+  border-bottom: 1px solid $color-border-message;
+  &:last-child{
+    margin-right: 0;
+  }
+  label {
+    font-size: $size-normal;
+    margin: 0;
+  }
+  input {
+    font-size: $size-p-content;
+    line-height: 28px;
+    outline: none;
+    border: none;
+  }
+}
+.file{
+  display: flex;
+  label{
+    margin-right: 10px;
+  }
+}
+.wrapper-new{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.area{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  textarea{
+    font-size: $size-p-content;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $color-border-message;
+  }
+}
