@@ -1,0 +1,38 @@
+.pagination-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  a{
+    max-width: 30px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .prev{
+    margin-right: 40px;
+  }
+  .next{
+    margin-left: 40px;
+  }
+}
+.pagination-list{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  li{
+    height: 30px;
+    opacity: 0.4;
+    &:last-child{
+      margin-right: 0;
+    }
+    img{
+      width: auto;
+      height: 30px;
+    }
+  }
+  li.active{
+    opacity: 1;
+  }
+}

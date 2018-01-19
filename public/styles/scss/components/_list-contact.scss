@@ -1,0 +1,29 @@
+.info-text{
+  margin-top: 43px;
+  li{
+    display: flex;
+    .icon-information{
+      font-size: $size-h3;
+      color: $color-lettuce;
+      margin-right: 30px;
+      margin-bottom: 43px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    .wrapper-text-li{
+      display: flex;
+      flex-direction: column;
+      h5{
+        font-size: $size-normal;
+        margin: 0;
+      }
+      span{
+        font-size: $size-h5;
+        color: $color-grey-blue;
+        font-family: $family-domine;
+        text-transform: none;
+      }
+    }
+  }
+}

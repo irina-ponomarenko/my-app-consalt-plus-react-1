@@ -1,0 +1,86 @@
+.quote{
+  h2{
+    margin: 0 auto;
+    font-size: $size-h2;
+    text-transform: uppercase;
+    position: relative;
+  }
+}
+.margin-quote{
+  margin-bottom: 31px;
+}
+.margin-p-quote{
+  margin-top: 91px;
+}
+.carousel-item{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  p{
+    max-width: 890px;
+    width: 100%;
+    color: $color-biruza;
+    font-size: $size-p-content;
+    font-family: $family-domine;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  h4,span{
+    color: $color-white;
+  }
+  span{
+    font-size: $size-p-content;
+  }
+  h4{
+    margin: 0;
+    position: relative;
+    padding-top: 30px;
+    font-size: $size-normal;
+    text-transform: uppercase;
+    &:before{
+      content: '';
+      width: 17px;
+      height: 2px;
+      background: $color-white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 30px;
+      margin: 0 auto;
+    }
+  }
+}
+.carousel-indicators{
+  align-items: center;
+  height: 74px;
+  top: 0;
+  z-index: 5;
+  li{
+    max-width: 58px;
+    height: 58px;
+    border-radius: 58px;
+    background: transparent;
+  }
+  .control-1{
+    background-image: url("../../images/control-3.png");
+    background-size: contain;
+    opacity: 0.5;
+  }
+  .control-2{
+    background-image: url("../../images/control-2.png");
+    background-size: contain;
+    opacity: 0.5;
+  }
+  .control-3{
+    background-image: url("../../images/control-1.png");
+    background-size: contain;
+    opacity: 0.5;
+  }
+  .active{
+    max-width: 74px;
+    height: 74px;
+    opacity: 1;
+
+  }
+}

@@ -1,0 +1,22 @@
+.welcome-massege{
+  padding: 16.1vh 0 16.1vh 0;
+  .container{
+    h2{
+      text-transform: uppercase;
+      font-size: $size-lg;
+      margin: 0 auto;
+    }
+  }
+}
+.home-message{
+  text-align: center;
+  p{
+    font-size: $size-simple;
+    text-transform: uppercase;
+  }
+  .container{
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+  }
+}

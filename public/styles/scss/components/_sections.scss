@@ -1,0 +1,212 @@
+body{
+  font-size: 14px;
+  font-family: $family-monserat;
+  line-height: 33px;
+  outline: none;
+  color: $color-white;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+}
+section{
+  width: 100%;
+  height: auto;
+  padding: 93px 0 93px 0;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about-us{
+  color: $color-black;
+  padding: 100px 0 100px 0;
+  .container{
+    display: flex;
+  }
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    text-transform: uppercase;
+    color: $color-grey-card;
+  }
+  p{
+    max-width: 706px;
+    width: 100%;
+    font-family: $family-domine;
+    font-size: $size-p-content;
+    text-align: center;
+    margin: 30px 0;
+  }
+}
+.margin-bottom{
+  margin-bottom: 67px;
+}
+.margin-top{
+  margin-top: 50px !important;
+  font-size: 32px;
+  text-align: center;
+}
+.sections-header{
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-grey-card;
+}
+.left-header{
+  text-align: left;
+}
+.features{
+  padding-bottom: 0;
+  background: $color-card-section;
+}
+.border-about{
+  border-bottom: 1px solid $color-border-message;
+}
+.three-card{
+  color: $color-black;
+  background: $color-card-section;
+}
+.testimonials{
+  background-color: $color-blue;
+  position: relative;
+  padding: 0;
+  .container{
+    padding: 93px 0 93px 0;
+    &:before{
+      content: '';
+      max-width: 162px;
+      width: 100%;
+      height: auto;
+      background-image: url("../../images/quote-1.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    &:after{
+      content: '';
+      width: 30px;
+      height: 21px;
+      background: url("../../images/quote-2.png") no-repeat;
+      position: absolute;
+      right: 70px;
+      bottom: 170px;
+    }
+  }
+}
+.blog-page{
+  color: $color-black;
+  text-transform: uppercase;
+  h2{
+    font-size: $size-h2;
+  }
+  .margin-h2-blog{
+    margin-bottom: 40px;
+  }
+}
+.blog-post{
+  color: $color-black;
+  text-transform: uppercase;
+  h2{
+    font-size: $size-h2;
+  }
+}
+.comunication{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  .container, .container-1{
+    max-width: 585px;
+    text-transform: uppercase;
+    font-size: $size-h2;
+  }
+  .container{
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-right: 0;
+  }
+}
+.job{
+  .container{
+    text-transform: uppercase;
+    font-size: $size-h2;
+    color: $color-black;
+  }
+}
+.companies{
+  background: $color-card-section;
+  .container{
+    text-transform: uppercase;
+    font-size: $size-h2;
+    color: $color-black;
+    text-align: center;
+    p{
+      font-size: $size-small;
+      color: $color-grey-p;
+    }
+  }
+}
+.connect{
+  .container {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: $size-h2;
+    color: $color-black;
+  }
+}
+.write-us{
+  color: $color-grey-card;
+  background: $color-card-section;
+  h2{
+    text-align: center;
+  }
+}
+.project{
+  .container{
+    .btn-back{
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.services{
+  background: $color-orange-section;
+  .container {
+    .btn-back {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.our-blog{
+  background: $color-card-section;
+  .container {
+    .btn-back {
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}
+.questions{
+  background: $color-card-section;
+}
+.quote-section{
+  background: url("../../images/quote-citate.png") no-repeat;
+  background-size: cover;
+  position: relative;
+
+}

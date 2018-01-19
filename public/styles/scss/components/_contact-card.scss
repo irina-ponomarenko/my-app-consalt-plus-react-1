@@ -1,0 +1,62 @@
+.contact-card{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  li{
+    width: 100%;
+    padding: 40px 28px 32px 36px;
+    border: 1px solid $color-grey-radius;
+    margin-right: 30px;
+    &:last-child{
+      margin-right: 0;
+    }
+    h5{
+      color: $color-grey-card;
+      text-transform: uppercase;
+      font-size: $size-h5;
+      margin: 0;
+    }
+    span{
+      font-size: $size-h5;
+      font-family: $family-domine;
+      color: $color-grey-card;
+    }
+  }
+}
+.wrapper-contact{
+  padding-left: 102px;
+  position: relative;
+}
+.email-icon{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 58px;
+    background: url("../../images/icon-email.png") no-repeat;
+  }
+}
+.call-icon{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    background: url("../../images/icon-call.png") no-repeat;
+  }
+}
+.career-icon{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    background: url("../../images/icon-career.png") no-repeat;
+  }
+}

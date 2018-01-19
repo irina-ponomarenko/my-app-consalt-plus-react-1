@@ -1,0 +1,82 @@
+.blog-post{
+  .card{
+    border: none;
+    border-bottom: 1px solid $color-grey-radius;
+    padding-bottom: 40px;
+    &:hover{
+      box-shadow: none;
+    }
+    .card-text{
+      text-transform: none;
+      font-family: $family-domine;
+    }
+    .card-body{
+      padding: 40px 102px;
+    }
+  }
+}
+.list-card-blog{
+  color: $color-grey-blue;
+  font-size: $size-p-content;
+  line-height: 36px;
+  margin-left: 167px;
+  font-family: $family-domine;
+  text-transform: none;
+  li {
+    i{
+      margin-right: 20px;
+      color: $color-orange;
+    }
+  }
+}
+.sub-card{
+  display: flex;
+  align-items: center;
+  p{
+    font-family: $family-domine;
+    margin: 0 94px 0 35px;
+    color: $color-grey-blue;
+    font-size: $size-p-content;
+    text-transform: none;
+  }
+}
+.share-social{
+  display: flex;
+  align-items: baseline;
+  align-self: flex-end;
+  border: 1px solid $color-grey-radius;
+  border-right: none;
+  border-radius: 44px;
+  cursor: pointer;
+  .share-card{
+    width: 44px;
+    height: 44px;
+    background: $color-orange;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    span{
+      color: $color-white;
+      font-size: $size-simple;
+      margin: 0 auto;
+    }
+  }
+}
+.social-block{
+  display: none;
+}
+.social{
+  margin: 0;
+  display: flex;
+  margin-left: 30px;
+  li{
+    margin-right: 20px;
+    a{
+      color: $color-grey-blue;
+      font-size: $size-simple;
+      &:hover{
+        color: $color-orange;
+      }
+    }
+  }
+}
