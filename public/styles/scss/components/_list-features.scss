@@ -1,0 +1,134 @@
+.wrapper-list-features{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-features{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  h4{
+    text-transform: uppercase;
+    color: $color-grey-card;
+    font-size: 17px;
+  }
+  p{
+    max-width: 378px;
+    width: 100%;
+    color: $color-grey-blue;
+    font-family: $family-domine;
+  }
+  li{
+    margin-top: 50px;
+  }
+}
+.logo-icon{
+  width: 130px;
+  height: 130px;
+  background: $color-white;
+  border-radius: 130px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 56px 0px rgba(218,231,234,1);
+  -moz-box-shadow: 0px 0px 56px 0px rgba(218,231,234,1);
+  box-shadow: 0px 0px 56px 0px rgba(218,231,234,1);
+  img{
+    margin: 0 auto;
+  }
+}
+.before-left{
+  padding-right: 60px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 31px;
+    background: url("../../images/support.png") no-repeat;
+  }
+}
+.before-right{
+  text-align: left;
+  padding-left: 60px;
+  position: relative;
+}
+.busines-1{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 32px;
+    background: url("../../images/busines-list.png") no-repeat;
+  }
+}
+.security{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 36px;
+    background: url("../../images/security.png") no-repeat;
+  }
+}
+.creative{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 36px;
+    background: url("../../images/creative.png") no-repeat;
+  }
+}
+.service-list{
+  flex-direction: row;
+}
+.before-top{
+  text-align: left;
+  padding-top: 60px;
+  position: relative;
+  margin-right: 30px;
+  &:last-child{
+    margin-right: 0;
+  }
+}
+.icon-busines{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 38px;
+    background: url("../../images/icon-busines-consult.png") no-repeat;
+  }
+}
+.icon-boosting{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 44px;
+    background: url("../../images/icon-boosting.png") no-repeat;
+  }
+}
+.icon-accounting{
+  &:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    width: 44px;
+    background: url("../../images/icon-accounting.png") no-repeat;
+  }
+}

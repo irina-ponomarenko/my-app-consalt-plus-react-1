@@ -1,0 +1,48 @@
+.write{
+  margin-top: 40px;
+  text-align: center;
+}
+.wrapper-input{
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  .write-name{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-right: 30px;
+    border-bottom: 1px solid $color-border-message;
+    input{
+      outline: none;
+      width: 90%;
+      background: transparent;
+      border: none;
+    }
+    label{
+      font-size: 12px;
+      line-height: 30px;
+      margin-right: 5px;
+      text-transform: uppercase;
+    }
+    select{
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+    }
+  }
+}
+.write-name-area{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid $color-border-message;
+  textarea{
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: none;
+  }
+  label{
+    display: flex;
+  }
+}
