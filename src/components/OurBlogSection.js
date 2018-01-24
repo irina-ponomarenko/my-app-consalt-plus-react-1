@@ -8,7 +8,7 @@ const Our_blog_section =()=>{
                 </header>
                 <div className="wrapper-blog-info">
                     <div className="card blog-card-our border-green">
-                        <img className="card-img-top" src="images/our-blog.png" alt="Card image cap"/>
+                        <img className="card-img-top-1" src="images/our-blog.png" alt="Card image cap"/>
                             <div className="card-body">
                                 <div className="footer-card">
                                     <p className="card-text"><small className="text-muted">February 22, 2016 </small></p>

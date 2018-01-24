@@ -23,11 +23,11 @@ $(document).ready(function () {
 
 $(document).ready(function() {
     $('.border-green').hover(function () {
-                $(".card-img-top").fadeIn(1000);
+                $(".card-img-top-1").fadeIn(1000);
                 return false;
             },
             function() {
-                $(".card-img-top").fadeOut(800);
+                $(".card-img-top-1").fadeOut(800);
                 return false;
             });
 });
