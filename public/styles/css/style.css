@@ -11944,7 +11944,6 @@ section {
   display: flex;
   flex-direction: column;
 }
-
 .error-404 .wrapper-error-info {
   display: flex;
   align-items: center;
@@ -12025,6 +12024,11 @@ button:focus {
   line-height: 55px;
   font-size: 15px;
   padding: 0 25px;
+}
+.iframe{
+  width:752px;
+  height: 325px;
+  border: 0;
 }
 
 .submit {

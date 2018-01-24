@@ -1,7 +1,7 @@
 import React from 'react';
-import Welcome_carosel from './small-components/welcome-carosel';
-import Header_menu from './small-components/header-menu';
-import Modal_form from './small-components/modal-form';
+import WelcomeCarosel from './small-components/WelcomeCarosel';
+import HeaderMenu from './small-components/HeaderMenu';
+import ModalForm from './small-components/ModalForm';
 const Header = () => {
     return (
         <header className="header">
@@ -10,8 +10,8 @@ const Header = () => {
                     <div className="logo">
                         <img src="images/logo.png" align="logo"/>
                     </div>
-                    <Header_menu/>
-                    <Modal_form/>
+                    <HeaderMenu/>
+                    <ModalForm/>
                     <div className="contact-nav">
                         <div className="phone">
                             <span className="icon-call-out"></span>
@@ -25,7 +25,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <Welcome_carosel/>
+            <WelcomeCarosel/>
         </header>
     );
 };
