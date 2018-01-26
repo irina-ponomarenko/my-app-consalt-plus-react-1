@@ -12642,10 +12642,20 @@ button:focus {
   margin: 0 auto;
 }
 
-.social-block {
-  display: none;
+.toggle-enter{
+  opacity: 0.01;
 }
-
+.toggle-enter.toggle-enter-active{
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.toggle-leave {
+  opacity: 1;
+}
+.toggle-leave.toggle-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
 .social {
   margin: 0;
   display: flex;

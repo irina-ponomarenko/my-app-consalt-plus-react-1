@@ -6,8 +6,8 @@ import { Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Industary from './Industary';
-import Services from './Blog';
-import Pages from './BlogPost';
+import Services from './BlogPost';
+import Pages from './Blog';
 import  ContactUs from './ContactUs';
 
 

@@ -15,11 +15,11 @@ $(document).ready(function () {
         return false;
     });
 });
-$(document).ready(function () {
-    $('.share-card').click(function () {
-        $('.social-block').toggle(500)
-    });
-});
+//$(document).ready(function () {
+  //  $('.share-card').click(function () {
+    //    $('.social-block').toggle(500)
+    //});
+//});
 
 $(document).ready(function() {
     $('.border-green').hover(function () {
