@@ -9,21 +9,21 @@ const WriteUsSection =()=>{
                 <form className="write">
                     <div className="wrapper-input">
                         <div className="write-name">
-                            <label for="id-name">Name</label>
+                            <label htmlFor="id-name">Name</label>
                             <input type="text" id="id-name"/>
                         </div>
                         <div className="write-name">
-                            <label for="id-email">Email</label>
+                            <label htmlFor="id-email">Email</label>
                             <input type="email" id="id-email"/>
                         </div>
                     </div>
                     <div className="wrapper-input">
                         <div className="write-name">
-                            <label for="id-phone">Phone</label>
+                            <label htmlFor="id-phone">Phone</label>
                             <input type="text" id="id-phone"/>
                         </div>
                         <div className="write-name">
-                            <label for="id-serv">Service</label>
+                            <label htmlFor="id-serv">Service</label>
                             <select id="id-serv">
                                 <option></option>
                                 <option></option>
@@ -32,7 +32,7 @@ const WriteUsSection =()=>{
                         </div>
                     </div>
                     <div className="write-name-area">
-                        <label for="comment-id">Comment</label>
+                        <label htmlFor="comment-id">Comment</label>
                         <textarea id="comment-id" rows="5"></textarea>
                     </div>
                     <button type="submit" className="btn-back submit">Submit Now</button>
