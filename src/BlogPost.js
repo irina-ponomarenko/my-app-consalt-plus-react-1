@@ -6,6 +6,42 @@ import { Link } from 'react-router-dom';
 
 class BlogPost extends React.Component {
     render() {
+        const cardList = [
+            {
+                img: 'images/card-post-1.jpg',
+                title: 'Blog Heading Here',
+                text: '11-feb-2016'
+            },
+            {
+                img: 'images/card-post-2.jpg',
+                title: 'Blog Heading Here',
+                text: '11-feb-2016'
+            },
+            {
+                img: 'images/card-post-3.jpg',
+                title: 'Blog Heading Here',
+                text: '11-feb-2016'
+            },
+            {
+                img: 'images/card-post-4.jpg',
+                title: 'Blog Heading Here',
+                text: '11-feb-2016'
+            }
+        ];
+        const listCardBlog = [
+            {
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                className: 'fa'
+            },
+            {
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                className: 'fa'
+            },
+            {
+                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                className: 'fa'
+            }
+        ];
         return (
             <div>
                 <header className="header">
@@ -20,8 +56,8 @@ class BlogPost extends React.Component {
                                     <li className="nav-li"><Link to="/">home</Link></li>
                                     <li className="nav-li"><Link to="/about us">about us</Link></li>
                                     <li className="nav-li"><Link to="/industary">industry</Link></li>
-                                    <li className="nav-li active"><Link to="/services">services</Link></li>
-                                    <li className="nav-li"><Link to="/pages">pages</Link></li>
+                                    <li className="nav-li"><Link to="/pricing">pricing</Link></li>
+                                    <li className="nav-li active"><Link to="/pages">pages</Link></li>
                                     <li className="nav-li"><Link to="/contact us">contact us</Link></li>
                                 </ul>
                             </div>
@@ -65,15 +101,16 @@ class BlogPost extends React.Component {
                                     It has survived not only five centuries, but also the leap into electronic
                                     typesetting, remaining essentially unchanged</p>
                                 <ul className="list-card-blog">
-                                    <li><i className="fa fa-check" aria-hidden="true"></i>Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit.
-                                    </li>
-                                    <li><i className="fa fa-check" aria-hidden="true"></i>Proin tempus ipsum vitae velit
-                                        convallis venenatis.
-                                    </li>
-                                    <li><i className="fa fa-check" aria-hidden="true"></i>Curabitur vel felis pretium,
-                                        blandit arcu in, sollicitudin ipsum.
-                                    </li>
+                                    {
+                                        listCardBlog.map((item,index) => {
+                                            return(
+                                                <li>
+                                                    <i className={item.className + ' fa-check'} aria-hidden="true"></i>
+                                                    {item.text}
+                                                </li>
+                                            );
+                                        })
+                                    }
                                 </ul>
                             </div>
                             <div className="sub-card">
@@ -88,36 +125,20 @@ class BlogPost extends React.Component {
                         <div className="card-bottom">
                             <h5>Related Post</h5>
                             <div className="card-list-post">
-                                <div className="card-post-wrapper">
-                                    <img src="images/card-post-1.jpg" alt="card image"/>
-                                    <div className="card-post-footer">
-                                        <h3>Blog Heading Here</h3>
-                                        <p>11-feb-2016</p>
-                                    </div>
-                                </div>
-                                <div className="card-post-wrapper">
-                                    <img src="images/card-post-2.jpg" alt="card image"/>
-                                    <div className="card-post-footer">
-                                        <h3>Blog Heading Here</h3>
-                                        <p>11-feb-2016</p>
-                                    </div>
-                                </div>
-                                <div className="card-post-wrapper">
-                                    <img src="images/card-post-3.jpg" alt="card image"/>
-                                    <div className="card-post-footer">
-                                        <h3>Blog Heading Here</h3>
-                                        <p>11-feb-2016</p>
-                                    </div>
-                                </div>
-                                <div className="card-post-wrapper">
-                                    <img src="images/card-post-4.jpg" alt="card image"/>
-                                    <div className="card-post-footer">
-                                        <h3>Blog Heading Here</h3>
-                                        <p>11-feb-2016</p>
-                                    </div>
-                                </div>
+                                {
+                                    cardList.map ((item,index) => {
+                                        return(
+                                            <div key={index} className={'card-post-wrapper'}>
+                                              <img src={item.img} alt="card image"/>
+                                                <div className={'card-post-footer'}>
+                                                    <h3>{item.title}</h3>
+                                                    <p>{item.text}</p>
+                                                </div>
+                                            </div>
+                                        );
+                                    })
+                                }
                             </div>
-
                         </div>
                     </div>
                 </section>

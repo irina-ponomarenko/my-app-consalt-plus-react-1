@@ -6,9 +6,12 @@ import { Route } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Industary from './Industary';
-import Services from './BlogPost';
+import Pricing from './Pricing';
 import Pages from './Blog';
 import  ContactUs from './ContactUs';
+import BlogPost from './BlogPost';
+import Testimonials from './TestimonialsPage';
+import Careers from './Careers';
 
 
 class Main extends React.Component {
@@ -18,9 +21,12 @@ class Main extends React.Component {
                 <Route exact path="/" component={Home}/>
                 <Route path="/about us" component={AboutUs}/>
                 <Route path="/industary" component={Industary}/>
-                <Route path="/services" component={Services}/>
+                <Route path="/pricing" component={Pricing}/>
                 <Route path="/pages" component={Pages}/>
                 <Route path="/contact us" component={ContactUs}/>
+                <Route path="/blog post" component={BlogPost}/>
+                <Route path="/testimonials" component={Testimonials}/>
+                <Route path="/careers" component={Careers}/>
             </div>
         );
     }

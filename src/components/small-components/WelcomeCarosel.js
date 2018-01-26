@@ -1,5 +1,5 @@
 import React from 'react';
-const Welcome_carosel =() =>{
+const WelcomeCarosel =() =>{
     return(
         <div className="welcome-massege home-message">
             <div className="container">
@@ -66,4 +66,4 @@ const Welcome_carosel =() =>{
         </div>
     );
 }
-export default Welcome_carosel;
+export default WelcomeCarosel;

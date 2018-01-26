@@ -9,7 +9,6 @@ import OurBlogSection from './components/OurBlogSection';
 import QuickSection from './components/QuickSection';
 
 class Home extends Component {
-
     render() {
         return (
             <div>

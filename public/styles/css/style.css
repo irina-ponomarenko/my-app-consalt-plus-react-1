@@ -3922,6 +3922,12 @@ tbody.collapse.show {
 .card-title {
   margin-bottom: 0.75rem;
 }
+.card-title a{
+  color: #343a3b;
+}
+.card-title a:hover{
+  color: orange;
+}
 
 .card-subtitle {
   margin-top: -0.375rem;
@@ -11648,6 +11654,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .nav-li {
   margin-right: 36px;
+  color: white;
+}
+.nav-li:hover{
+  color: orange;
+}
+.nav-li:first-child{
+  color: orange;
 }
 .nav-li:last-child {
   margin-right: 0;
@@ -12277,6 +12290,12 @@ button:focus {
 .margin-quote {
   margin-bottom: 31px;
 }
+.margin-quote  h2 > a{
+  color: white;
+}
+.margin-quote  h2 > a:hover{
+  color: orange;
+}
 
 .margin-p-quote {
   margin-top: 91px;
@@ -12413,6 +12432,12 @@ button:focus {
 }
 .img-title i {
   color: #000;
+}
+.img-title a{
+  color: white;
+}
+.img-title a:hover{
+  color: orange;
 }
 .img-title p {
   margin: 0;
@@ -12644,6 +12669,7 @@ button:focus {
 
 .toggle-enter{
   opacity: 0.01;
+  transition : all .3s ease-out;
 }
 .toggle-enter.toggle-enter-active{
   opacity: 1;
@@ -12651,6 +12677,7 @@ button:focus {
 }
 .toggle-leave {
   opacity: 1;
+  transition : all .3s ease-out;
 }
 .toggle-leave.toggle-leave-active {
   opacity: 0.01;

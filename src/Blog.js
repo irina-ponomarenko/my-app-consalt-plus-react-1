@@ -19,7 +19,7 @@ class Blog extends  React.Component {
                                     <li className="nav-li"><Link to="/">home</Link></li>
                                     <li className="nav-li"><Link to="/about us">about us</Link></li>
                                     <li className="nav-li"><Link to="/industary">industry</Link></li>
-                                    <li className="nav-li"><Link to="/services">services</Link></li>
+                                    <li className="nav-li"><Link to="/pricing">pricing</Link></li>
                                     <li className="nav-li active"><Link to="/pages">pages</Link></li>
                                     <li className="nav-li"><Link to="/contact us">contact us</Link></li>
                                 </ul>
@@ -54,7 +54,7 @@ class Blog extends  React.Component {
                                 <div className="card card-masonry">
                                     <div className="card-body">
                                         <button type="button" className="img-title">
-                                            <p>Health</p>
+                                            <Link to="/blog post"><p>Health</p></Link>
                                             <i className="fa fa-quote-left" aria-hidden="true"></i>
                                         </button>
                                         <h5 className="card-title card-h5">Blog Heading Here</h5>
@@ -74,7 +74,7 @@ class Blog extends  React.Component {
                                 <div className="card p-3">
                                     <blockquote className="blockquote mb-0 card-body">
                                         <button type="button" className="img-title">
-                                            <p>Health</p>
+                                            <Link to="/blog post"><p>Health</p></Link>
                                             <i className="fa fa-link" aria-hidden="true"></i>
                                         </button>
                                         <h5 className="card-title card-h5">Blog Heading Here</h5>
@@ -93,7 +93,7 @@ class Blog extends  React.Component {
                                 </div>
                                 <div className="card card-masonry">
                                     <button type="button" className="img-title after-img">
-                                        <p>Business</p>
+                                        <Link to="/blog post"><p>Business</p></Link>
                                         <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </button>
                                     <img className="card-img-top" src="images/card-masonry-3.jpg" alt="Card image cap"/>
@@ -114,7 +114,7 @@ class Blog extends  React.Component {
                                 </div>
                                 <div className="card card-masonry">
                                     <button type="button" className="img-title after-img">
-                                        <p>Business</p>
+                                        <Link to="/blog post"><p>Business</p></Link>
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
                                     </button>
                                     <img className="card-img-top" src="images/card-masonry-1.jpg" alt="Card image cap"/>
@@ -136,7 +136,7 @@ class Blog extends  React.Component {
                                 <div className="card card-masonry">
                                     <div className="card-body">
                                         <button type="button" className="img-title">
-                                            <p>Education</p>
+                                            <Link to="/blog post"><p>Education</p></Link>
                                             <i className="fa fa-link" aria-hidden="true"></i>
                                         </button>
                                         <h5 className="card-title card-h5">Blog Heading Here</h5>
@@ -156,7 +156,7 @@ class Blog extends  React.Component {
                                 </div>
                                 <div className="card card-masonry">
                                     <button type="button" className="img-title after-img">
-                                        <p>Technology</p>
+                                        <Link to="/blog post"><p>Technology</p></Link>
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
                                     </button>
                                     <img className="card-img-top" src="images/card-masonry-6.jpg" alt="Card image cap"/>
@@ -178,7 +178,7 @@ class Blog extends  React.Component {
                                 <div className="card">
                                     <div className="card-body">
                                         <button type="button" className="img-title">
-                                            <p>Health</p>
+                                            <Link to="/blog post"><p>Health</p></Link>
                                             <i className="fa fa-quote-left" aria-hidden="true"></i>
                                         </button>
                                         <h5 className="card-title card-h5">Blog Heading Here</h5>
@@ -197,7 +197,7 @@ class Blog extends  React.Component {
                                 </div>
                                 <div className="card">
                                     <button type="button" className="img-title after-img">
-                                        <p>Business</p>
+                                        <Link to="/blog post"><p>Business</p></Link>
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
                                     </button>
                                     <div className="card-busines">
@@ -213,7 +213,7 @@ class Blog extends  React.Component {
                                 <div className="card p-3">
                                     <blockquote className="blockquote mb-0 card-body">
                                         <button type="button" className="img-title">
-                                            <p>Health</p>
+                                            <Link to="/blog post"><p>Health</p></Link>
                                             <i className="fa fa-link" aria-hidden="true"></i>
                                         </button>
                                         <h5 className="card-title card-h5">Blog Heading Here</h5>
