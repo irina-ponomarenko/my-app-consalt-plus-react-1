@@ -1,5 +1,5 @@
 import React from 'react';
-const Features_section =()=>{
+const FeaturesSection =()=>{
     const list = [
         {
             _id: 'busines-1',
@@ -57,4 +57,4 @@ const Features_section =()=>{
         </section>
     );
 }
-export default Features_section;
+export default FeaturesSection;
