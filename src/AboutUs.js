@@ -20,7 +20,7 @@ class AboutUs extends React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" align="logo"/>
+                                <img src="images/logo.png" alt="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>

@@ -18,9 +18,9 @@ class SocialBlock extends React.Component {
         if (this.state.blockOpened) {
             DropdownContent = (
                 <ul className="social">
-                    <li><a href=""><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i className="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i className="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                    <li><a href=""><i className="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                    <li><a href=""><i className="fa fa-google-plus" aria-hidden="true"></i> </a></li>
                 </ul>
             )
 

@@ -11,7 +11,7 @@ class Blog extends  React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" align="logo"/>
+                                <img src="images/logo.png" alt="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
@@ -96,7 +96,7 @@ class Blog extends  React.Component {
                                         <Link to="/blog post"><p>Business</p></Link>
                                         <i className="fa fa-youtube-play" aria-hidden="true"></i>
                                     </button>
-                                    <img className="card-img-top" src="images/card-masonry-3.jpg" alt="Card image cap"/>
+                                    <img className="card-img-top" src="images/card-masonry-3.jpg" alt="card-masonry-3"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Blog Heading Here</h5>
                                         <p className="card-text">Typesetting industry. Lorem Ipsum has been the
@@ -117,7 +117,7 @@ class Blog extends  React.Component {
                                         <Link to="/blog post"><p>Business</p></Link>
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
                                     </button>
-                                    <img className="card-img-top" src="images/card-masonry-1.jpg" alt="Card image cap"/>
+                                    <img className="card-img-top" src="images/card-masonry-1.jpg" alt="card-masonry-1"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Blog Heading Here</h5>
                                         <p className="card-text">Typesetting industry. Lorem Ipsum has been the
@@ -159,7 +159,7 @@ class Blog extends  React.Component {
                                         <Link to="/blog post"><p>Technology</p></Link>
                                         <i className="fa fa-picture-o" aria-hidden="true"></i>
                                     </button>
-                                    <img className="card-img-top" src="images/card-masonry-6.jpg" alt="Card image cap"/>
+                                    <img className="card-img-top" src="images/card-masonry-6.jpg" alt="card-masonry-6"/>
                                     <div className="card-body">
                                         <h5 className="card-title">Blog Heading Here</h5>
                                         <p className="card-text">Typesetting industry. Lorem Ipsum has been the
@@ -208,7 +208,7 @@ class Blog extends  React.Component {
                                         </p>
                                         <Link to=""><i className="fa fa-share-alt" aria-hidden="true"></i></Link>
                                     </div>
-                                    <img className="card-img" src="images/card-masonry-8.jpg" alt="Card image"/>
+                                    <img className="card-img" src="images/card-masonry-8.jpg" alt="card-masonry-8"/>
                                 </div>
                                 <div className="card p-3">
                                     <blockquote className="blockquote mb-0 card-body">

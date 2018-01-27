@@ -8,7 +8,7 @@ class Tree_card extends React.Component {
                 <div className="container">
                     <div className="card-deck">
                         <div className="card card-three">
-                            <img className="card-img-top" src="images/card-1.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/card-1.png" alt="card-1"/>
                             <div className="card-body">
                                 <h3 className="card-title">Our Team</h3>
                                 <p className="card-text">Dummy text of the printing and typesetting industry. Lorem
@@ -17,7 +17,7 @@ class Tree_card extends React.Component {
                             </div>
                         </div>
                         <div className="card card-three">
-                            <img className="card-img-top" src="images/card-2.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/card-2.png" alt="card-2"/>
                             <div className="card-body">
                                 <h3 className="card-title"><Link to="/careers">Careers</Link></h3>
                                 <p className="card-text">Dummy text of the printing and typesetting industry. Lorem
@@ -26,7 +26,7 @@ class Tree_card extends React.Component {
                             </div>
                         </div>
                         <div className="card card-three">
-                            <img className="card-img-top" src="images/card-3.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/card-3.png" alt="card-3"/>
                             <div className="card-body">
                                 <h3 className="card-title">Serviceas</h3>
                                 <p className="card-text">Dummy text of the printing and typesetting industry. Lorem

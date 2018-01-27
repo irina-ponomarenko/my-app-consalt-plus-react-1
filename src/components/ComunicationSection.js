@@ -11,7 +11,7 @@ class ComunicationSection extends React.Component {
                         <ul className="coment-list">
                             <li className="coment-li">
                                 <div className="coment-img">
-                                    <img src="images/coment-1.jpg" alt="coment image"/>
+                                    <img src="images/coment-1.jpg" alt="coment-1"/>
                                 </div>
                                 <div className="text-coment">
                                     <div className="wrapper-coment-text">
@@ -24,7 +24,7 @@ class ComunicationSection extends React.Component {
                             </li>
                             <li className="coment-li center-coment">
                                 <div className="coment-img">
-                                    <img src="images/coment-2.jpg" alt="coment image"/>
+                                    <img src="images/coment-2.jpg" alt="coment-2"/>
                                 </div>
                                 <div className="text-coment">
                                     <div className="wrapper-coment-text">
@@ -37,7 +37,7 @@ class ComunicationSection extends React.Component {
                             </li>
                             <li className="coment-li">
                                 <div className="coment-img">
-                                    <img src="images/coment-3.jpg" alt="coment image"/>
+                                    <img src="images/coment-3.jpg" alt="coment-3"/>
                                 </div>
                                 <div className="text-coment">
                                     <div className="wrapper-coment-text">

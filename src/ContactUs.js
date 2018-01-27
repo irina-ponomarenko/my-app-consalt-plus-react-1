@@ -19,7 +19,7 @@ class ContactUs extends React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" align="logo"/>
+                                <img src="images/logo.png" alt="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
@@ -91,9 +91,7 @@ class ContactUs extends React.Component {
                             </ul>
                         </div>
                         <div className="map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.952216149054!2d-3.212410084062471!3d55.932866280601914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c70c0bdfdccd%3A0x739396a168781a3c!2zNDQgTW9ybmluZ3NpZGUgUmQsIEVkaW5idXJnaCBFSDEwIDRCRiwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1515262595697"
-                                className="iframe"></iframe>
+                            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.952216149054!2d-3.212410084062471!3d55.932866280601914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c70c0bdfdccd%3A0x739396a168781a3c!2zNDQgTW9ybmluZ3NpZGUgUmQsIEVkaW5idXJnaCBFSDEwIDRCRiwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90ZbRjw!5e0!3m2!1suk!2sua!4v1515262595697"  className="iframe" title="This is a unique title"></iframe>
                         </div>
                     </div>
                 </section>

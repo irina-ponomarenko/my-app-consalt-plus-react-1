@@ -48,7 +48,7 @@ class BlogPost extends React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" align="logo"/>
+                                <img src="images/logo.png" alt="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
@@ -91,7 +91,7 @@ class BlogPost extends React.Component {
                                 <p>Business</p>
                                 <i className="fa fa-picture-o" aria-hidden="true"></i>
                             </button>
-                            <img className="card-img-top" src="images/blog-post.jpg" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/blog-post.jpg" alt="Card blog-post"/>
                             <div className="card-body">
                                 <h5 className="card-title">Blog Heading Here</h5>
                                 <p className="card-text">Lorem Ipsum is simply dummy text of the printing and
@@ -114,7 +114,7 @@ class BlogPost extends React.Component {
                                 </ul>
                             </div>
                             <div className="sub-card">
-                                <img src="images/sub-img.jpg" alt="card image"/>
+                                <img src="images/sub-img.jpg" alt="card sub"/>
                                 <p>Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                     text ever since the 1500s,
                                     when an unknown printer took a galley of type and scrambled it to make a type
@@ -129,7 +129,7 @@ class BlogPost extends React.Component {
                                     cardList.map ((item,index) => {
                                         return(
                                             <div key={index} className={'card-post-wrapper'}>
-                                              <img src={item.img} alt="card image"/>
+                                              <img src={item.img} alt="card"/>
                                                 <div className={'card-post-footer'}>
                                                     <h3>{item.title}</h3>
                                                     <p>{item.text}</p>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import List_nav_footer_1 from './list-nav-footer-1';
-import List_nav_footer_2 from './list-nav-footer-2';
-import List_social_footer from './list-social-footer';
+import ListNavFooter1 from './listNavFooter1';
+import ListNavFooter2 from './listNavFooter2';
+import ListSocialFooter from './listSocialFooter';
 const Footer = () => {
     return (
         <footer className="footer">
@@ -14,11 +14,11 @@ const Footer = () => {
                     <ul className="top-footer-list">
                         <li className="">
                             <h2>navigation</h2>
-                           <List_nav_footer_1/>
+                           <ListNavFooter1/>
                         </li>
                         <li className="">
                             <h2>Industary</h2>
-                          <List_nav_footer_2/>
+                          <ListNavFooter2/>
                         </li>
                         <li className="news-letter">
                             <h2>News letter</h2>
@@ -32,7 +32,7 @@ const Footer = () => {
                 </div>
                 <div className="bottom-footer">
                     <p className="copyright">Copyright © 2017 Consultplus theme.</p>
-                   <List_social_footer/>
+                   <ListSocialFooter/>
                 </div>
             </div>
         </footer>

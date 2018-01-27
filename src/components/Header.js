@@ -36,7 +36,7 @@ class Header extends React.Component {
                 <div className="nav-header">
                     <div className="container">
                         <div className="logo">
-                            <img src="images/logo.png" align="logo"/>
+                            <img src="images/logo.png" alt="logo"/>
                         </div>
                         <HeaderMenu items = { menuNav }/>
                         <ModalForm/>

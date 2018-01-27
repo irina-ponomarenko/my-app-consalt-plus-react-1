@@ -11,13 +11,13 @@ const Card_carosel =()=>{
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img className="card-img-top" src="images/project-card-2.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/project-card-2.png" alt="project-card-2"/>
                         </div>
                         <div className="carousel-item">
-                            <img className="card-img-top" src="images/project-card-2.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/project-card-2.png" alt="project-card-2"/>
                         </div>
                         <div className="carousel-item">
-                            <img className="card-img-top" src="images/project-card-2.png" alt="Card image cap"/>
+                            <img className="card-img-top" src="images/project-card-2.png" alt="project-card-2"/>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Card_carosel from './small-components/CardCarosel';
-const Project_section =()=>{
+import CardCarosel from './small-components/CardCarosel';
+const ProjectSection =()=>{
     return(
         <section className="project">
             <div className="container">
@@ -12,18 +12,18 @@ const Project_section =()=>{
                         <button type="button" className="after-img img-project">
                             Banking
                         </button>
-                        <img className="card-img-top" src="images/project-card.png" alt="Card image cap"/>
+                        <img className="card-img-top" src="images/project-card.png" alt="project-card"/>
                             <div className="card-body">
                                 <h5 className="card-title">Project Heading</h5>
                                 <p className="card-text">Popularised in the 1960s with the release
                                     Letraset sheets containing Lorem.</p>
                             </div>
                     </div>
-                    <Card_carosel/>
+                    <CardCarosel/>
                 </div>
                 <button type="button" className="btn-back subscribe">Full Projects</button>
             </div>
         </section>
     );
 }
-export  default Project_section;
+export  default ProjectSection;

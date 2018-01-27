@@ -10,7 +10,7 @@ class Industary extends React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" align="logo"/>
+                                <img src="images/logo.png" alt="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
@@ -50,7 +50,7 @@ class Industary extends React.Component {
                         </header>
                         <div className="wrapper-blog-info indastry-wrapper">
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-1.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-1.png" alt="Card industry-1"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Business</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -60,7 +60,7 @@ class Industary extends React.Component {
                                 </div>
                             </div>
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-2.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-2.png" alt="Card industry-2"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Education</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -71,7 +71,7 @@ class Industary extends React.Component {
                         </div>
                         <div className="wrapper-blog-info indastry-wrapper">
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-3.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-3.png" alt="Card industry-3"/>
                                 <div className="card-body">
                                     <h5 className="card-title">technology</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -81,7 +81,7 @@ class Industary extends React.Component {
                                 </div>
                             </div>
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-4.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-4.png" alt="Card industry-4"/>
                                 <div className="card-body">
                                     <h5 className="card-title">real estate</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -92,7 +92,7 @@ class Industary extends React.Component {
                         </div>
                         <div className="wrapper-blog-info indastry-wrapper">
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-5.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-5.png" alt="Card industry-5"/>
                                 <div className="card-body">
                                     <h5 className="card-title">telecommunication</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -102,7 +102,7 @@ class Industary extends React.Component {
                                 </div>
                             </div>
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-6.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-6.png" alt="Card industry-6"/>
                                 <div className="card-body">
                                     <h5 className="card-title">BANKING & FINANCIAL</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -113,7 +113,7 @@ class Industary extends React.Component {
                         </div>
                         <div className="wrapper-blog-info indastry-wrapper">
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-7.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-7.png" alt="Card industry-7"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Law</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
@@ -123,7 +123,7 @@ class Industary extends React.Component {
                                 </div>
                             </div>
                             <div className="card blog-card-our card-industry">
-                                <img className="card-img-top" src="images/industry-8.png" alt="Card image cap"/>
+                                <img className="card-img-top" src="images/industry-8.png" alt="Card industry-8"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Construction</h5>
                                     <p className="card-text">Many desktop publishing packages and web page editors now
