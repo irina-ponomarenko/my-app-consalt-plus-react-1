@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class HeaderMenu extends React.Component {
     render() {
@@ -9,7 +9,7 @@ class HeaderMenu extends React.Component {
                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
                 <div className="navigation">
                     {this.props.items.map((item, index) =>
-                        <Link to={item.Link} key={index} className={'nav-li'}>{item.label}</Link>
+                        <NavLink to={item.Link} key={index} className={'nav-li'} activeClassName="active">{item.label}</NavLink>
                     )}
                 </div>
             </div>

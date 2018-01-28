@@ -11673,7 +11673,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   text-decoration: none;
   color: #ffac55;
 }
-
+.nav-li .active{
+  color: #ffac55;
+}
 .active {
   color: #ffac55;
 }

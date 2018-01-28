@@ -2,6 +2,7 @@ import React from 'react';
 import ComunicationSection from './components/ComunicationSection';
 import SocialBlock from './components/small-components/SocialBlock';
 import ModalForm from './components/small-components/ModalForm';
+import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 
@@ -54,12 +55,12 @@ class BlogPost extends React.Component {
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
                                 <ul className="navigation">
-                                    <li className="nav-li"><Link to="/">home</Link></li>
-                                    <li className="nav-li"><Link to="/about us">about us</Link></li>
-                                    <li className="nav-li"><Link to="/industary">industry</Link></li>
-                                    <li className="nav-li"><Link to="/pricing">pricing</Link></li>
-                                    <li className="nav-li active"><Link to="/pages">pages</Link></li>
-                                    <li className="nav-li"><Link to="/contact us">contact us</Link></li>
+                                    <li className="nav-li"><NavLink to="/" exact activeClassName="active">home</NavLink></li>
+                                    <li className="nav-li"><NavLink to="/about us" activeClassName="active">about us</NavLink></li>
+                                    <li className="nav-li"><NavLink to="/industary" activeClassName="active">industry</NavLink></li>
+                                    <li className="nav-li"><NavLink to="/pricing" activeClassName="active">pricing</NavLink></li>
+                                    <li className="nav-li"><NavLink to="/pages" activeClassName="active">pages</NavLink></li>
+                                    <li className="nav-li"><NavLink to="/contact us" activeClassName="active">contact us</NavLink></li>
                                 </ul>
                             </div>
                             <ModalForm/>
