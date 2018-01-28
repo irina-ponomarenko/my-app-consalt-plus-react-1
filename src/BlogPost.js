@@ -4,6 +4,7 @@ import SocialBlock from './components/small-components/SocialBlock';
 import ModalForm from './components/small-components/ModalForm';
 import { Link } from 'react-router-dom';
 
+
 class BlogPost extends React.Component {
     render() {
         const cardList = [
@@ -104,7 +105,7 @@ class BlogPost extends React.Component {
                                     {
                                         listCardBlog.map((item,index) => {
                                             return(
-                                                <li>
+                                                <li key={index}>
                                                     <i className={item.className + ' fa-check'} aria-hidden="true"></i>
                                                     {item.text}
                                                 </li>

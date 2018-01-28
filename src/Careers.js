@@ -54,11 +54,11 @@ class Careers extends React.Component {
                             <div className="apply-wrapper">
                                 <div className="wrapper-account">
                                     <div className="account-manager">
-                                        <label for="manager">accountant manager</label>
+                                        <label htmlFor="manager">accountant manager</label>
                                         <input type="text" id="manager" placeholder="full time"/>
                                     </div>
                                     <div className="location">
-                                        <label for="local"><span className="icon-location-pin"></span>Location :</label>
+                                        <label htmlFor="local"><span className="icon-location-pin"></span>Location :</label>
                                         <input type="text" id="local" placeholder="San francisco"/>
                                     </div>
                                 </div>
@@ -67,11 +67,11 @@ class Careers extends React.Component {
                             <div className="apply-wrapper">
                                 <div className="wrapper-account">
                                     <div className="account-manager">
-                                        <label for="systam">Computer & information systam manager</label>
+                                        <label htmlFor="systam">Computer & information systam manager</label>
                                         <input type="text" id="systam" placeholder="full time"/>
                                     </div>
                                     <div className="location">
-                                        <label for="local-1"><span className="icon-location-pin"></span>Location
+                                        <label htmlFor="local-1"><span className="icon-location-pin"></span>Location
                                             :</label>
                                         <input type="text" id="local-1" placeholder="San francisco"/>
                                     </div>
@@ -81,11 +81,11 @@ class Careers extends React.Component {
                             <div className="apply-wrapper">
                                 <div className="wrapper-account">
                                     <div className="account-manager">
-                                        <label for="sales">sales executive</label>
+                                        <label htmlFor="sales">sales executive</label>
                                         <input type="text" id="sales" placeholder="full time"/>
                                     </div>
                                     <div className="location">
-                                        <label for="local-3"><span className="icon-location-pin"></span>Location
+                                        <label htmlFor="local-3"><span className="icon-location-pin"></span>Location
                                             :</label>
                                         <input type="text" id="local-3" placeholder="San francisco"/>
                                     </div>
@@ -95,11 +95,11 @@ class Careers extends React.Component {
                             <div className="apply-wrapper">
                                 <div className="wrapper-account">
                                     <div className="account-manager">
-                                        <label for="education">education consultants</label>
+                                        <label htmlFor="education">education consultants</label>
                                         <input type="text" id="education" placeholder="full time"/>
                                     </div>
                                     <div className="location">
-                                        <label for="local-4"><span className="icon-location-pin"></span>Location
+                                        <label htmlFor="local-4"><span className="icon-location-pin"></span>Location
                                             :</label>
                                         <input type="text" id="local-4" placeholder="San francisco"/>
                                     </div>
@@ -108,34 +108,34 @@ class Careers extends React.Component {
                             </div>
                             <div className="wrapper-new">
                                 <div className="ident">
-                                    <label for="name">first Name</label>
+                                    <label htmlFor="name">first Name</label>
                                     <input type="text" id="name"/>
                                 </div>
                                 <div className="ident">
-                                    <label for="last">Last Name</label>
+                                    <label htmlFor="last">Last Name</label>
                                     <input type="text" id="last"/>
                                 </div>
                                 <div className="ident">
-                                    <label for="email">Email</label>
+                                    <label htmlFor="email">Email</label>
                                     <input type="email" id="email"/>
                                 </div>
                             </div>
                             <div className="wrapper-new">
                                 <div className="ident">
-                                    <label for="phone">Phone number</label>
+                                    <label htmlFor="phone">Phone number</label>
                                     <input type="text" id="phone"/>
                                 </div>
                                 <div className="ident">
-                                    <label for="city">Location (City)</label>
+                                    <label htmlFor="city">Location (City)</label>
                                     <input type="text" id="city"/>
                                 </div>
                                 <div className="ident file">
-                                    <label for="resume">Resume/CV</label>
+                                    <label htmlFor="resume">Resume/CV</label>
                                     <input type="file" id="resume" placeholder="Attach, Dropbox"/>
                                 </div>
                             </div>
                             <div className="ident area">
-                                <label for="write">Write your self / copy paste your Resume</label>
+                                <label htmlFor="write">Write your self / copy paste your Resume</label>
                                 <textarea id="write" rows="6"></textarea>
                             </div>
                             <button type="submit" id="applic" className="btn-back application">Submit application
