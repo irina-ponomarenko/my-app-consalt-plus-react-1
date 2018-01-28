@@ -12042,6 +12042,7 @@ button:focus {
   width:752px;
   height: 325px;
   border: 0;
+  max-width: 100%;
 }
 
 .submit {
@@ -13111,7 +13112,14 @@ button:focus {
   margin-top: 40px;
   text-align: center;
 }
-
+.write-name select{
+  font-size: 12px;
+  line-height: 30px;
+  margin-right: 5px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
 .wrapper-input {
   display: flex;
   margin-bottom: 15px;
