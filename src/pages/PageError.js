@@ -1,19 +1,7 @@
 import React from 'react';
+import ModalForm from '../components/small-components/ModalForm';
 import { NavLink } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import Testimonials from './components/Testimonials';
-import ThreeCards from './components/ThreeCard';
-import AboutUsSection from './components/AboutUsSection';
-import ModalForm from './components/small-components/ModalForm';
-
-class AboutUs extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            header: "about us",
-        }
-    }
+class PageError extends React.Component {
     render() {
         return (
             <div>
@@ -21,7 +9,7 @@ class AboutUs extends React.Component {
                     <div className="nav-header">
                         <div className="container">
                             <div className="logo">
-                                <img src="images/logo.png" alt="logo"/>
+                                <img src="images/logo.png" align="logo"/>
                             </div>
                             <div className="menu">
                                 <button type="button" id="btn-click-menu"><span className="icon-menu"></span></button>
@@ -50,15 +38,28 @@ class AboutUs extends React.Component {
                     </div>
                     <div className="welcome-massege">
                         <div className="container">
-                            <h2>{this.state.header}</h2>
+                            <h2>about us</h2>
                         </div>
                     </div>
                 </header>
-                <AboutUsSection/>
-                <ThreeCards/>
-                <Testimonials/>
+                <section className="error-404">
+                    <div className="container">
+                        <div className="wrapper-error-info">
+                            <div className="text-error">
+                                <h1 className="error">
+                                    404
+                                </h1>
+                            </div>
+                            <div className="content-error">
+                                <span>OOPS!!</span>
+                                <p>The page you are looking for cannot be found</p>
+                                <button type="submit" className="btn-back margin-back">Back to home page</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         );
     };
 }
-export default AboutUs;
+export default PageError;

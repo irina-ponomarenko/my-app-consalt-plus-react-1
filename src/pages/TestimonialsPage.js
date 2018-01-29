@@ -1,8 +1,8 @@
 import React from 'react';
-import HappyClientSection from './components/HappyClientSection';
-import QuoteSection from './components/QuoteSection';
-import ModalForm from './components/small-components/ModalForm';
-import ProjectSection from './components/ProjectSection';
+import HappyClientSection from '../components/HappyClientSection';
+import QuoteSection from '../components/QuoteSection';
+import ModalForm from '../components/small-components/ModalForm';
+import ProjectSection from '../components/ProjectSection';
 
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';

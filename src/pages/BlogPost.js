@@ -1,7 +1,7 @@
 import React from 'react';
-import ComunicationSection from './components/ComunicationSection';
-import SocialBlock from './components/small-components/SocialBlock';
-import ModalForm from './components/small-components/ModalForm';
+import ComunicationSection from '../components/ComunicationSection';
+import SocialBlock from '../components/small-components/SocialBlock';
+import ModalForm from '../components/small-components/ModalForm';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 

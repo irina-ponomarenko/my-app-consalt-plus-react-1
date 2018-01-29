@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Testimonials from './components/Testimonials';
-import CaroselPagination from './components/small-components/CaroselPagination';
-import ModalForm from './components/small-components/ModalForm';
+import Testimonials from '../components/Testimonials';
+import CaroselPagination from '../components/small-components/CaroselPagination';
+import ModalForm from '../components/small-components/ModalForm';
 
 class Careers extends React.Component {
     render() {

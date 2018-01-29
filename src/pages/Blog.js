@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import ModalForm from './components/small-components/ModalForm';
-import PaginationForm from './components/small-components/PaginationPage';
+import ModalForm from '../components/small-components/ModalForm';
+import PaginationForm from '../components/small-components/PaginationPage';
 
 class Blog extends  React.Component {
     render() {

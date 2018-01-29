@@ -1,6 +1,6 @@
 import React from 'react';
-import Testimonials from './components/Testimonials';
-import ModalForm from './components/small-components/ModalForm';
+import Testimonials from '../components/Testimonials';
+import ModalForm from '../components/small-components/ModalForm';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 class Industary extends React.Component {

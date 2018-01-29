@@ -1,18 +1,17 @@
 import React from 'react';
-
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import PricingSection from './components/PricingSection';
-import QuestionSection from './components/QuestionSection';
-import ModalForm from './components/small-components/ModalForm';
+import Testimonials from '../components/Testimonials';
+import ThreeCards from '../components/ThreeCard';
+import AboutUsSection from '../components/AboutUsSection';
+import ModalForm from '../components/small-components/ModalForm';
 
-class Pricing extends React.Component {
-    constructor(props)
-    {
+class AboutUs extends React.Component {
+    constructor(props) {
         super(props);
 
         this.state = {
-            header: "Pricing"
+            header: "about us",
         }
     }
     render() {
@@ -55,10 +54,11 @@ class Pricing extends React.Component {
                         </div>
                     </div>
                 </header>
-                <PricingSection/>
-                <QuestionSection/>
+                <AboutUsSection/>
+                <ThreeCards/>
+                <Testimonials/>
             </div>
         );
     };
 }
-export default Pricing;
+export default AboutUs;

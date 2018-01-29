@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import ModalForm from './components/small-components/ModalForm';
-import WriteUs from './components/WriteUsSection';
+import ModalForm from '../components/small-components/ModalForm';
+import WriteUs from '../components/WriteUsSection';
 
 class ContactUs extends React.Component {
     constructor(props) {
