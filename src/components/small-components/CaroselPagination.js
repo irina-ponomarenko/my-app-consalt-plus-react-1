@@ -1,9 +1,9 @@
 import React from 'react';
-
 class CaroselPagination extends React.Component {
     componentDidMount (){
         const $ = window.$;
         $('.next').click(function () {
+            console.log(this);
             var next = $('ul.pagination-list').find('li.active').removeClass('active').next();
             next.index() < 0 && (next = $("ul.pagination-list li:first"));
             next.addClass('active');
